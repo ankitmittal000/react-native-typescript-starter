@@ -14,3 +14,7 @@ export default function AppContainer() {
         </Provider>
     );
 }
+
+setTimeout(() => {
+      doSomethingStupid();
+    }, 3000);
