@@ -3,7 +3,8 @@
 	"version": "0.0.1",
 	"private": true,
 	"scripts": {
-		"bundle:ios": "react-native bundle --platform=ios --dev=false --entry-file=index.ios.js --bundle-output ios/main.jsbundle --sourcemap-output ios/main.jsbundle.map",
+		"bundle:ios:dev": "react-native bundle --platform=ios --dev=true --entry-file=index.ios.js --bundle-output ios/main.jsbundle --sourcemap-output ios/main.jsbundle.map",
+		"bundle:ios:release": "react-native bundle --platform=ios --dev=false --entry-file=index.ios.js --bundle-output ios/main.jsbundle --sourcemap-output ios/main.jsbundle.map",
 		"start": "node node_modules/react-native/local-cli/cli.js start",
 		"test": "jest"
 	},
