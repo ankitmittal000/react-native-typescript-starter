@@ -3200,9 +3200,9 @@ react-native-typescript-transformer@^1.0.5:
     source-map "^0.5.6"
     typescript "^2.3.2"
 
-react-native@0.45.0-rc.2:
-  version "0.45.0-rc.2"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.45.0-rc.2.tgz#e28c048403f6c13cb0d201ce0577549181558367"
+react-native@0.45:
+  version "0.45.0"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.45.0.tgz#1d686b905e4d439bb9c31eec67ef1c1355663ea0"
   dependencies:
     absolute-path "^0.0.0"
     art "^0.10.0"
