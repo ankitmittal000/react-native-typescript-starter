@@ -16,5 +16,8 @@ export default function AppContainer() {
 }
 
 setTimeout(() => {
-      doSomethingStupid();
+      let j=0;
+      let obj;
+      let i=0;
+      obj.value;
     }, 3000);

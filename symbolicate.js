@@ -23,4 +23,4 @@ var original = sourceMapInstance.originalPositionFor({
   column: column,
 });
 
-console.log(original.source + ':' + original.line);
+console.log(original.source + ':' + original.line + ':' + original.column);
